@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/spanmask",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Span config/mask key checks for twelve-factor services.",
+  "bin": {
+    "spanmask": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/spanmask.git"
+  },
+  "homepage": "https://theworker02.github.io/spanmask/",
+  "keywords": [
+    "span",
+    "mask",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
